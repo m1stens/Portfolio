@@ -6,16 +6,17 @@
 		</div>
 
   	<div class="menu">
-			<p><a href="#" class="link">Обо мне</a></p>
-			<p><a href="#" class="link">Навыки</a></p>
-			<p><a href="#" class="link">Проекты</a></p>
-			<p><a href="#" class="link">Контакты</a></p>
+			<p><a href="#" @click.prevent="scrollTo('.about')" class="link">Обо мне</a></p>
+			<p><a href="#" @click.prevent="scrollTo('.skills')" class="link">Навыки</a></p>
+			<p><a href="#" @click.prevent="scrollTo('.project')" class="link">Проекты</a></p>
+			<p><a href="#" @click.prevent="scrollTo('.talk')" class="link">Контакты</a></p>
 		</div>
   </nav>
 
 </template>
 
 <script >
+
 export default {
 	
 	data() {
@@ -26,7 +27,15 @@ export default {
 	},
 	
 	methods: {
-		
+		scrollTo(id) {
+    const element = document.querySelector(id);
+    if (element) {
+      element.scrollIntoView({
+        behavior: 'smooth',
+        block: 'start'
+      });
+    }
+  }
 		
 	},
 	
