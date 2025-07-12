@@ -22,7 +22,7 @@
 						Это агентство цифрового маркетинга, которое помогает компаниям расти и добиваться успеха в Интернете с помощью ряда услуг, включая SEO, PPC, маркетинг в социальных сетях и создание контента.
 					</p>
 					
-					<a href="/positivus-main/index.html" target="_blank" style="width: 20px;"><img src="/src/assets/Read More.svg" alt="Read More" style="width: 20px; height: 20px;" class="readMore"></a>
+					<a href="https://m1stens.github.io/positivus-main/" target="_blank" style="width: 20px;"><img src="/src/assets/Read More.svg" alt="Read More" style="width: 20px; height: 20px;" class="readMore"></a>
 				</div>
 			</div>
 
@@ -38,7 +38,7 @@
 					<p class="main-info">
 						Фитнес клуб "Kropp" — это современное пространство для тех, кто стремится к здоровому образу жизни и активному отдыху. Мы предлагаем широкий спектр услуг, которые подходят как новичкам, так и опытным спортсменам.
 					</p>
-					<a href="/kropp-fitness-main/index.html" target="_blank" style="width: 20px;"><img src="/src/assets/Read More.svg" alt="Read More" style="width: 20px; height: 20px;" class="readMore"></a>
+					<a href="https://m1stens.github.io/kropp-fitness-main/" target="_blank" style="width: 20px;"><img src="/src/assets/Read More.svg" alt="Read More" style="width: 20px; height: 20px;" class="readMore"></a>
 				</div>
 				<div class="project-image">
 					<img src="/src/assets/Fitnes.svg" alt="project" style="border-radius: 19px;">
@@ -61,7 +61,7 @@
 						Веб-ресурс нацелен на оптимизацию процесса выбора, оплаты и доставки еды, предоставляя высокий уровень сервиса и разнообразие гастрономических предложений.
 						
 					</p>
-					<a href="/WEB PRO Burger Landing FINAL/index.html" target="_blank" style="width: 20px;" ><img src="/src/assets/Read More.svg" alt="Read More" style="width: 20px; height: 20px;" class="readMore"></a>
+					<a href="https://m1stens.github.io/WEB-PRO-Burger-Landing-FINAL/" target="_blank" style="width: 20px;" ><img src="/src/assets/Read More.svg" alt="Read More" style="width: 20px; height: 20px;" class="readMore"></a>
 				</div>
 			</div>
 
