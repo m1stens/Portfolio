@@ -64,5 +64,12 @@ export default {
   column-gap: 106px;
 	margin-top: 75px;
 }
+@media(max-width: 767px){
+		.icons{
+			grid-template-columns: repeat(2, 186px);
+			grid-template-rows: 186px 186px;
+			gap: 20px;
+		}
+	}
 
 </style>

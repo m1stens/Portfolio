@@ -176,4 +176,31 @@ export default {
 	flex-direction: column;
 	gap: 16px;
 }
+@media(max-width: 767px){
+	.talk{
+		display: grid;
+	}
+		.input{
+			width: 390px;
+		}
+		.social{
+			display: grid;
+		}
+		.info{
+			margin-left: 0px;
+		}
+		.stroke{
+			max-width: 400px;
+		}
+		.contacts{
+			font-size: 26px;
+		}
+		.sora{
+			text-align: center;
+		}
+		.submit{
+			padding: 21px 20px;
+		}
+		
+	}
 </style>

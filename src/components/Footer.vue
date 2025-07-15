@@ -58,6 +58,11 @@ export default {
 	font-size: 24px;
 	color: white;
 }
+@media(max-width: 767px){
+		.nav{
+			padding: 24px 20px;
+		}
+	}
 
 
 </style>

@@ -88,5 +88,14 @@ export default {
 		}
 	}
 }
+@media(max-width: 767px){
+		.menu{
+			display: none !important;
+		}
+		.nav{
+			
+			padding: 0px;
+		}
+	}
 
 </style>

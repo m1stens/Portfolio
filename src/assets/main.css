@@ -230,3 +230,9 @@ body{
 	font-family: "Sora", sans-serif;
   font-style: normal;
 }
+@media(max-width: 767px){
+	.container{
+		padding-inline: 20px;
+		
+	}
+}

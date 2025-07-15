@@ -93,5 +93,31 @@ export default {
 		z-index: 2;
 		left: 740px;
 	}
-
+	@media(max-width: 767px){
+		.hero{
+			display: grid;			
+			justify-content: center;
+			grid-template-areas: 
+			"image"
+			"info"
+			;
+			
+		}
+		.sora{
+			text-align: center;
+		}
+		.info{
+			grid-area: info;
+			padding: 50px 40px;
+		}
+		.image{
+			position: relative;
+			left: -25px;
+			grid-area: image;
+			width: 470px;
+		}
+		.info-main{
+			max-width: 400px;
+		}
+	}
 </style>

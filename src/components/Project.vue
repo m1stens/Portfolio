@@ -26,9 +26,9 @@
 				</div>
 			</div>
 
-			<div class="project-item">
+			<div class="project-item special">
 				
-				<div class="project-info">
+				<div class="project-info special-info">
 					<p class="sora number">
 						<b>02</b>
 					</p>
@@ -40,7 +40,7 @@
 					</p>
 					<a href="https://m1stens.github.io/kropp-fitness-main/" target="_blank" style="width: 20px;"><img src="/src/assets/Read More.svg" alt="Read More" style="width: 20px; height: 20px;" class="readMore"></a>
 				</div>
-				<div class="project-image">
+				<div class="project-image special-image">
 					<img src="/src/assets/Fitnes.svg" alt="project" style="border-radius: 19px;">
 				</div>
 			</div>
@@ -150,4 +150,32 @@ position: relative;
 		
 	}
 }
+@media(max-width: 767px){
+		.project{
+			padding-inline: 20px;
+		}
+		.project-list{
+			display: grid;
+		}
+		.project-item{
+			display: grid;
+			gap: 20px;
+		}
+		.project-info{
+			padding: 20px 0px;
+		}
+
+		.special{
+			grid-template-areas: 
+			"image"
+			"info"
+			;
+		}
+		.special-info{
+			grid-area: info;
+		}
+		.special-image{
+			grid-area: image;
+		}
+	}
 </style>

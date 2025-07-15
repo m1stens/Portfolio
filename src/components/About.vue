@@ -63,6 +63,14 @@ export default {
   padding-top: 20px;
 	color: black;
 }
+@media(max-width: 767px){
+		.about{
+			display: grid;
+		}
+		.sora{
+			text-align: center;
+		}
+	}
 
 
 </style>
